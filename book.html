@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="1.jpg" alt="Slide 1"></div>
+    <div class="swiper-slide"><img src="2.jpg" alt="Slide 2"></div>
+    <div class="swiper-slide"><img src="3.jpg" alt="Slide 3"></div>
+    <div class="swiper-slide"><img src="4.jpg" alt="Slide 4"></div>
+    <div class="swiper-slide"><img src="5.jpg" alt="Slide 5"></div>
+    <div class="swiper-slide"><img src="6.jpg" alt="Slide 6"></div>
+    <div class="swiper-slide"><img src="7.jpg" alt="Slide 7"></div>
+    <div class="swiper-slide"><img src="8.jpg" alt="Slide 8"></div>
+    <div class="swiper-slide"><img src="9.jpg" alt="Slide 9"></div>
+    <div class="swiper-slide"><img src="10.jpg" alt="Slide 10"></div>
+    <div class="swiper-slide"><img src="11.jpg" alt="Slide 11"></div>
+    <div class="swiper-slide"><img src="12.jpg" alt="Slide 12"></div>
+    <div class="swiper-slide"><img src="13.jpg" alt="Slide 13"></div>
+    <div class="swiper-slide"><img src="14.jpg" alt="Slide 14"></div>
+    <div class="swiper-slide"><img src="15.jpg" alt="Slide 15"></div>
+    <div class="swiper-slide"><img src="16.jpg" alt="Slide 16"></div>
+    <div class="swiper-slide"><img src="17.jpg" alt="Slide 17"></div>
+    <div class="swiper-slide"><img src="18.jpg" alt="Slide 18"></div>
+    <div class="swiper-slide"><img src="19.jpg" alt="Slide 19"></div>
+    <div class="swiper-slide"><img src="20.jpg" alt="Slide 20"></div>
+    <div class="swiper-slide"><img src="21.jpg" alt="Slide 21"></div>
+    <div class="swiper-slide"><img src="22.jpg" alt="Slide 22"></div>
+    <div class="swiper-slide"><img src="23.jpg" alt="Slide 23"></div>
+  </div>
+</div>
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      background-color: black;
+    }
+
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper {
+      width: 460px;
+      height: 660px;
+      
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      overflow: hidden; 
+    }
+
+    .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 18px;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
+</body>
+
+</html>
